@@ -50,7 +50,7 @@
                     <div class="icon p-2 me-2">
                         <img class="img-fluid" src="{% static 'img/icon-deal.png'%}" alt="Icon" style="width: 30px; height: 30px;">
                     </div>
-                    <h1 class="m-0 text-primary">LIGHT APARTMENTS</h1>
+                    <h1 class="m-0 text-primary">EXELA REALTORS</h1>
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -104,9 +104,12 @@
                         <div class="row gy-4">
                             <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
                                 <div class="bg-light rounded p-3">
-                                    <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                                    <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed hsla(166, 100%, 36%, 0.3)">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-map-marker-alt text-primary"></i>
+                                            
+                                            <a style="color: white;" href="https://www.google.com/maps/search/?api=1&query=0.567884,32.647951&query_name=FoodHub-Bugema" target="_blank">
+                                                <i class="fa fa-map-marker-alt text-primary"></i>
+                                            </a>
                                         </div>
                                         <span>123 Street, New York, USA</span>
                                     </div>
@@ -116,7 +119,9 @@
                                 <div class="bg-light rounded p-3">
                                     <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-envelope-open text-primary"></i>
+                                            <a href="mailto:info@example.com" target="_blank">
+                                                <i class="fa fa-envelope-open text-primary"></i>
+                                            </a>
                                         </div>
                                         <span>info@example.com</span>
                                     </div>
@@ -126,7 +131,7 @@
                                 <div class="bg-light rounded p-3">
                                     <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <a href="tel:+012 345 67890" target="_blank"><i class="fa fa-phone-alt text-primary"></i></a>
                                         </div>
                                         <span>+012 345 6789</span>
                                     </div>
@@ -142,7 +147,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.5s">
-                            <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                            <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="contact.html">Download Now</a>.</p>
                             <form>
                                 <div class="row g-3">
                                     <div class="col-md-6">
@@ -157,12 +162,12 @@
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <!--<div class="col-12">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="subject" placeholder="Subject">
                                             <label for="subject">Subject</label>
                                         </div>
-                                    </div>
+                                    </div>-->
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
@@ -192,10 +197,14 @@
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="tel:+012 345 67890" target="_blank"><i class="fas fa-phone"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://wa.me/+012 345 67890" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/lightappartments" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/lightappartments" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/lightappartments" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/your-channel-id" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/in/lightappartments" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="mailto:info@example.com" target="_blank"><i class="fas fa-envelope"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
@@ -253,7 +262,7 @@
                                 <a href="">Home</a>
                                 <a href="">Cookies</a>
                                 <a href="">Help</a>
-                                <a href="">FQAs</a>
+                                <a href="">FAQs</a>
                             </div>
                         </div>
                     </div>
